@@ -1,0 +1,30 @@
+{
+  "name": "imguploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finfort/imgUploader.git"
+  },
+  "author": "Anatolii Ruchka",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/finfort/imgUploader/issues"
+  },
+  "homepage": "https://github.com/finfort/imgUploader#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.0",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "method-override": "^2.3.5",
+	"moment": "^2.10.3",
+    "morgan": "^1.6.1",
+	"multer": "^0.1.8"
+  }
+}
